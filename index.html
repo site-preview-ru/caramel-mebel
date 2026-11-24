@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студия мебели CARAMEL — Кухни, шкафы и гардеробные на заказ в Подольске и МО</title>
+  <meta name="description" content="Выездная студия мебели на заказ Caramel (Владислав Алёхин). Дизайнерские кухни, шкафы-купе, распашные шкафы и гардеробные в Подольске, Видном, Щербинке, Чехове, Домодедово и Троицке. Сроки от 14 рабочих дней, гарантия 2 года, расчёт за 1 день.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=JetBrains+Mono:wght@400;500;700&family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="siteHeader">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Студия мебели Caramel — на главную">
+        <svg class="brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#1C1815" stroke="rgba(234,135,27,0.35)"/>
+          <rect x="12" y="13" width="10" height="12" rx="1.8" fill="#EA871B"/>
+          <rect x="24" y="13" width="16" height="12" rx="1.8" fill="#EA871B"/>
+          <rect x="42" y="13" width="10" height="12" rx="1.8" fill="#EA871B"/>
+          <rect x="12" y="32" width="10" height="19" rx="1.8" fill="#EA871B"/>
+          <rect x="24" y="32" width="16" height="12" rx="1.8" fill="#EA871B"/>
+          <rect x="28" y="36.5" width="8" height="2.6" rx="1.2" fill="#1C1815"/>
+          <rect x="24" y="46" width="16" height="5" rx="1.5" fill="#EA871B"/>
+          <rect x="42" y="32" width="10" height="19" rx="1.8" fill="#EA871B"/>
+        </svg>
+        <span class="brand__word">
+          <span class="brand__title">CARAMEL</span>
+          <span class="brand__sub">Студия мебели · Подольск и МО</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#portfolio" class="nav__link">Портфолио (24)</a>
+        <a href="#founder" class="nav__link">Основатель</a>
+        <a href="#materials" class="nav__link">Материалы</a>
+        <a href="#reviews" class="nav__link">Отзывы 5.0 ★</a>
+        <a href="#brief" class="nav__link">Расчёт за 1 день</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__right">
+        <div class="header__phone-wrap">
+          <a href="tel:+79999695759" class="header__phone">+7 (999) 969-57-59</a>
+          <span class="header__status"><span class="status-dot"></span>Выездная студия · На связи</span>
+        </div>
+        <button type="button" class="btn btn--caramel btn--sm" data-open-callback="Бесплатный выезд технолога с образцами">
+          Записаться на замер
+        </button>
+        <button type="button" class="burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-drawer__links">
+        <a href="#portfolio">Живое портфолио (24 работы)</a>
+        <a href="#founder">Основатель Владислав Алёхин</a>
+        <a href="#materials">Материалы и производство</a>
+        <a href="#reviews">Реальные отзывы (5.0 ★)</a>
+        <a href="#brief">Расчёт стоимости за 1 день</a>
+        <a href="#contacts">Контакты и география выезда</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <a href="tel:+79999695759" class="btn btn--glass" style="width:100%;">Позвонить: +7 (999) 969-57-59</a>
+        <button type="button" class="btn btn--caramel" style="width:100%;" data-open-callback="Бесплатный выезд технолога с образцами">Записаться на бесплатный замер</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="hero__media" id="heroMedia">
+      <img src="assets/images/k10-black-marble-wide.jpg" alt="Реальная кухня Caramel в потолок" class="hero__slide-img is-active">
+      <img src="assets/images/pin-kitchen-wide-1.jpg" alt="Светлая кухня Caramel с полуостровом" class="hero__slide-img">
+      <img src="assets/images/k11-sage-agt-wide.jpg" alt="Кухня AGT шалфей и дуб от студии Caramel" class="hero__slide-img">
+      <div class="hero__veil"></div>
+    </div>
+
+    <div class="container hero__grid">
+      <div>
+        <div class="hero__city-pill">
+          ★ Подольск · Щербинка · Видное · Чехов · Домодедово · Троицк · Юг Москвы
+        </div>
+        <h1 class="hero__title">
+          Кухни и шкафы на заказ — <em>на совесть</em>, без салонных наценок
+        </h1>
+        <p class="hero__lead">
+          Более 8 лет создаём корпусную мебель по индивидуальным размерам. К вам приезжает не менеджер по продажам, а опытный технолог с чемоданом живых образцов фасадов и столешниц — делаем 3D-проект и честную смету за 1 день.
+        </p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--caramel">Смотреть 24 живые работы ↓</a>
+          <a href="#brief" class="btn btn--glass">Рассчитать стоимость за 1 день</a>
+        </div>
+        <div>
+          <button type="button" class="hero__sublink" data-open-callback="Честный пересчёт готового проекта / сметы другого салона">
+            Уже считали кухню в салоне? Пришлите эскиз — покажем честную цену без переплаты →
+          </button>
+        </div>
+      </div>
+
+      <aside class="hero__passport" aria-label="Выполненный объект на фото">
+        <div class="hero__passport-badge" id="heroBadge">Реальный объект · Кухня-гостиная 3,7 м</div>
+        <div class="hero__passport-title" id="heroSlideTitle">Кашемир в потолок, чёрный мрамор и единая ТВ-зона</div>
+        <div class="hero__passport-specs" id="heroSlideSpecs">МДФ в плёнке · Искусственный камень · Колонна техники · Samet 3D</div>
+        <div class="hero__dots" id="heroDots">
+          <button type="button" class="hero__dot is-active" data-slide="0" aria-label="Слайд 1"></button>
+          <button type="button" class="hero__dot" data-slide="1" aria-label="Слайд 2"></button>
+          <button type="button" class="hero__dot" data-slide="2" aria-label="Слайд 3"></button>
+        </div>
+      </aside>
+    </div>
+
+    <div class="container hero__facts">
+      <div>
+        <div class="hero__fact-val">от <span>14</span> раб. дней</div>
+        <div class="hero__fact-lbl">реальный срок изготовления кухонь и шкафов</div>
+      </div>
+      <div>
+        <div class="hero__fact-val"><span>0 ₽</span> выезд и 3D</div>
+        <div class="hero__fact-lbl">бесплатный замер с образцами, расчёт и доставка</div>
+      </div>
+      <div>
+        <div class="hero__fact-val">Гарантия <span>2 года</span></div>
+        <div class="hero__fact-lbl">официальный договор ИП и рассрочка до 12 мес.</div>
+      </div>
+      <div>
+        <div class="hero__fact-val"><span>5.0 ★</span> рейтинг</div>
+        <div class="hero__fact-lbl">57+ живых отзывов в ВК и меблировка квартир целиком</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LIVE PORTFOLIO ================= -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <div class="eyebrow">100% настоящие фотографии с наших установок</div>
+          <h2 class="section__title">Живое портфолио <em>без 3D-рендеров</em></h2>
+        </div>
+        <p class="section__desc">
+          Никаких картинок из интернета — каждый объект ниже спроектирован и собран нашей командой в квартирах и домах Подольска, Москвы и МО. Нажмите на любую работу, чтобы изучить материалы, фурнитуру и открыть пост в ВК.
+        </p>
+      </div>
+
+      <div class="filter-bar" id="portfolioFilters" role="tablist" aria-label="Категории мебели">
+        <!-- Заполняется из js/app.js -->
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Заполняется из js/app.js -->
+      </div>
+
+      <div class="portfolio-more" id="portfolioMoreWrap">
+        <button type="button" class="btn btn--glass" id="showAllProjectsBtn">
+          Показать все 24 выполненные работы
+        </button>
+        <a href="https://vk.ru/albums-217330319" target="_blank" rel="noopener noreferrer" class="btn btn--sm" style="color:var(--text-muted);">
+          Ещё 1 400+ фото в альбомах ВК ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOUNDER VLADISLAV ALYOKHIN ================= -->
+  <section class="section section--stone" id="founder">
+    <div class="container founder-grid">
+      <div class="founder-visual">
+        <div class="founder-photo-main">
+          <img src="assets/images/founder-vladislav-kitchen.jpg" alt="Владислав Алёхин — основатель студии мебели Caramel на установленном объекте" loading="lazy">
+        </div>
+        <div class="founder-badge-card">
+          <img src="assets/images/founder-avatar.jpg" alt="Владислав Алёхин в фирменном поло Caramel" loading="lazy">
+          <div>
+            <div class="founder-badge-card__name">Владислав Алёхин</div>
+            <div class="founder-badge-card__role">Основатель и руководитель студии «Caramel»</div>
+            <div class="founder-badge-card__meta">Более 8 лет в мебели · От мастера цеха до своей студии</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="eyebrow eyebrow--on-light">Личная ответственность руководителя</div>
+        <h2 class="section__title" style="margin-bottom:22px;">
+          «В Caramel у вас не попросят 500 тысяч за кухню из простого ЛДСП»
+        </h2>
+
+        <blockquote class="founder-quote">
+          Цена должна соответствовать качеству. Мы делаем мебель на совесть — так, как поставили бы в собственном доме.
+        </blockquote>
+
+        <div class="founder-story">
+          <p>
+            Меня зовут Владислав. Я сам прошёл весь путь <strong>от наёмного работника в крупной мебельной компании до руководителя собственного дела</strong>: изучил все технологические тонкости изнутри и сам умею изготовить и собрать мебель любой сложности.
+          </p>
+          <p>
+            И главное — в найме я увидел, <strong>как делать точно нельзя</strong>: как сетевые салоны заламывают тройные наценки за аренду ТЦ, обещают нереальные сроки, допускают ошибки при замере и установке, а потом перестают брать трубку. Мне был противен такой подход — поэтому я создал студию, работающую по моим принципам.
+          </p>
+          <p>
+            Мы открыто рассказываем плюсы и минусы каждого пластика, плёнки и эмали: <strong>предложим топовые материалы на десятилетия или честно подскажем, на чём можно безболезненно сэкономить</strong>, чтобы уложиться в ваш бюджет.
+          </p>
+        </div>
+
+        <div class="founder-promises">
+          <div class="promise-box">
+            <div class="promise-box__title"><span class="promise-box__dot"></span>Выездная студия вместо ТЦ</div>
+            <div class="promise-box__text">На замер приезжает технолог с образцами декоров — смотрим оттенки прямо при освещении вашей квартиры.</div>
+          </div>
+          <div class="promise-box">
+            <div class="promise-box__title"><span class="promise-box__dot"></span>Европейские ЧПУ-фабрики</div>
+            <div class="promise-box__text">Раскрой и герметичное PUR-кромление на высокоточных европейских линиях (производственная база 1 500 м²).</div>
+          </div>
+          <div class="promise-box">
+            <div class="promise-box__title"><span class="promise-box__dot"></span>Сроки от 14 рабочих дней</div>
+            <div class="promise-box__text">Соблюдаем даты по договору без отговорок. Бесплатный расчёт, замер в черте города и бережная доставка.</div>
+          </div>
+          <div class="promise-box">
+            <div class="promise-box__title"><span class="promise-box__dot"></span>Не бросаем после сборки</div>
+            <div class="promise-box__text">Гарантия 2 года, рассрочка до 12 месяцев и прямая связь со мной даже спустя годы после установки.</div>
+          </div>
+        </div>
+
+        <div class="founder-cta-row">
+          <button type="button" class="btn btn--ink" data-open-callback="Личная консультация и выезд с образцами (Владислав)">
+            Пригласить выездную студию на замер
+          </button>
+          <a href="https://vk.me/caramelmebel" target="_blank" rel="noopener noreferrer" class="btn btn--outline-dark">
+            Написать Владиславу в ВК ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MATERIALS & 4 STEPS ================= -->
+  <section class="section section--elevated" id="materials">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <div class="eyebrow">Технология и комплектация</div>
+          <h2 class="section__title">Проверенные материалы <em>под любую задачу и бюджет</em></h2>
+        </div>
+        <p class="section__desc">
+          Не привязываем клиента к одному бренду: комплектуем как доступные антивандальные кухни под сдачу, так и сложные дизайнерские проекты на австрийском акриле и камне.
+        </p>
+      </div>
+
+      <div class="mat-grid">
+        <article class="mat-card">
+          <div>
+            <div class="mat-card__num">01 / ФАСАДЫ И КОРПУС</div>
+            <h3 class="mat-card__title">От практичного ЛМДФ до акрила и эмали</h3>
+            <p class="mat-card__desc">
+              Плотный корпус, влагостойкое полиуретановое <strong>PUR-кромление</strong> торцов (не разбухает над чайником и посудомойкой), трендовые кашемировые и древесные декоры, реечная и рамочная фрезеровка.
+            </p>
+          </div>
+          <div class="mat-brands">
+            <span class="mat-brand">Senosan (Австрия)</span>
+            <span class="mat-brand">AGT Supramat</span>
+            <span class="mat-brand">Kronospan</span>
+            <span class="mat-brand">Egger</span>
+            <span class="mat-brand">Плёнка Adilet</span>
+            <span class="mat-brand">Матовая эмаль</span>
+          </div>
+        </article>
+
+        <article class="mat-card">
+          <div>
+            <div class="mat-card__num">02 / ФУРНИТУРА И ПРОФИЛИ</div>
+            <h3 class="mat-card__title">Плавный ход на десятки тысяч циклов</h3>
+            <p class="mat-card__desc">
+              Ставим как премиальную австрийскую и немецкую классику, так и проверенные рабочие системы с 3D-регулировкой и доводчиками, укладываясь в разумную смету.
+            </p>
+          </div>
+          <div class="mat-brands">
+            <span class="mat-brand">Blum</span>
+            <span class="mat-brand">Hettich Sensys</span>
+            <span class="mat-brand">Samet FlowBox</span>
+            <span class="mat-brand">Boyard B-Slide</span>
+            <span class="mat-brand">Aristo Slim line</span>
+            <span class="mat-brand">Профиль Gola</span>
+          </div>
+        </article>
+
+        <article class="mat-card">
+          <div>
+            <div class="mat-card__num">03 / СТОЛЕШНИЦЫ И ФАРТУКИ</div>
+            <h3 class="mat-card__title">Еврозапил без планок и литой камень</h3>
+            <p class="mat-card__desc">
+              Влагостойкие HPL-плиты повышенной прочности со стыковкой в <strong>заводской еврозапил</strong> без металлических порожков, а также монолитный искусственный камень с интегрированными мойками.
+            </p>
+          </div>
+          <div class="mat-brands">
+            <span class="mat-brand">Slotex HPL</span>
+            <span class="mat-brand">Искусственный камень</span>
+            <span class="mat-brand">Еврозапил</span>
+            <span class="mat-brand">Стеновые панели в тон</span>
+          </div>
+        </article>
+
+        <article class="mat-card">
+          <div>
+            <div class="mat-card__num">04 / СЛОЖНЫЕ УЗЛЫ КВАРТИРЫ</div>
+            <h3 class="mat-card__title">Точная встройка без щелей и потери места</h3>
+            <p class="mat-card__desc">
+              Закладные под натяжной потолок, потайные люки push-to-open к стоякам, бойлерам и электрощиткам, аккуратный обход газовых труб и встройка шкафов в неровные ниши балконов.
+            </p>
+          </div>
+          <div class="mat-brands">
+            <span class="mat-brand">Схема электрики</span>
+            <span class="mat-brand">В потолок 2 мм</span>
+            <span class="mat-brand">Скрытые ревизии</span>
+            <span class="mat-brand">LED-подсветка</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="steps-grid">
+        <div>
+          <div class="step-item__num">Шаг 01</div>
+          <h3 class="step-item__title">Заявка и оценка за 1 день</h3>
+          <p class="step-item__text">Оставляете вводные в анкете ниже (или присылаете готовый эскиз) — без навязчивых звонков ориентируем по бюджету и материалам.</p>
+        </div>
+        <div>
+          <div class="step-item__num">Шаг 02</div>
+          <h3 class="step-item__title">Выездная студия у вас дома</h3>
+          <p class="step-item__text">Бесплатно приезжаем с образцами, снимаем лазерные размеры, выдаём план розеток для строителей, 3D-визуализацию и честную смету.</p>
+        </div>
+        <div>
+          <div class="step-item__num">Шаг 03</div>
+          <h3 class="step-item__title">Договор и ЧПУ-цех (от 14 дней)</h3>
+          <p class="step-item__text">Фиксируем комплектацию и срок в официальном договоре (доступна рассрочка до 12 мес.) и запускаем проект на европейские станки.</p>
+        </div>
+        <div>
+          <div class="step-item__num">Шаг 04</div>
+          <h3 class="step-item__title">Бесплатная доставка и сборка</h3>
+          <p class="step-item__text">Бережно привозим мебель, собираем за 1–2 дня без повреждения чистовой отделки, выводим зазоры и остаёмся с вами на связи по гарантии.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= REAL REVIEWS ================= -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <div class="eyebrow">Живая репутация в Подольске и МО</div>
+          <h2 class="section__title">Что пишут наши заказчики <em>после установки</em></h2>
+        </div>
+        <div class="rating-pill">
+          <span class="rating-pill__stars">★★★★★ 5.0</span>
+          <span>57+ проверенных отзывов во ВКонтакте</span>
+        </div>
+      </div>
+
+      <div class="reviews-grid" id="reviewsGrid">
+        <!-- Заполняется из js/app.js -->
+      </div>
+
+      <div class="reviews-links">
+        <a href="https://vk.ru/topic-217330319_49145725" target="_blank" rel="noopener noreferrer" class="btn btn--glass btn--sm">
+          Читать все 30 отзывов с фото в обсуждениях ВК ↗
+        </a>
+        <a href="https://vk.ru/reviews-217330319" target="_blank" rel="noopener noreferrer" class="btn btn--glass btn--sm">
+          Открыть рейтинг 5.0 в карточке ВК ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HONEST 1-DAY BRIEF (FROM VK SURVEY) ================= -->
+  <section class="section section--stone" id="brief">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <div class="eyebrow eyebrow--on-light">Без фейковых «калькуляторов за погонный метр»</div>
+          <h2 class="section__title">Рассчитаем стоимость вашей мебели <em>за 1 день</em></h2>
+        </div>
+        <p class="section__desc">
+          Две кухни одинаковой длины могут отличаться вдвое из-за наполнения и фурнитуры. Отметьте 4 коротких пункта — Владислав лично подготовит реалистичный расчёт под ваш бюджет.
+        </p>
+      </div>
+
+      <div class="brief-shell">
+        <form class="brief-form-side" id="briefForm">
+          <div class="brief-group">
+            <label class="brief-label">1. Вид мебели *</label>
+            <div class="choice-pills" data-choice-group="furnitureType">
+              <button type="button" class="choice-pill is-selected" data-value="Кухня">Кухня</button>
+              <button type="button" class="choice-pill" data-value="Распашной шкаф">Распашной шкаф</button>
+              <button type="button" class="choice-pill" data-value="Шкаф-купе">Шкаф-купе</button>
+              <button type="button" class="choice-pill" data-value="Гардеробная">Гардеробная</button>
+              <button type="button" class="choice-pill" data-value="Корпусная мебель / вся квартира">Корпусная мебель / вся квартира</button>
+            </div>
+          </div>
+
+          <div class="brief-group">
+            <label class="brief-label">2. Когда планируете покупку мебели? *</label>
+            <div class="choice-pills" data-choice-group="timeline">
+              <button type="button" class="choice-pill is-selected" data-value="В ближайшее время">В ближайшее время</button>
+              <button type="button" class="choice-pill" data-value="В течение месяца">В течение месяца</button>
+              <button type="button" class="choice-pill" data-value="В течение трёх месяцев">В течение трёх месяцев</button>
+              <button type="button" class="choice-pill" data-value="В течение полугода">В течение полугода</button>
+              <button type="button" class="choice-pill" data-value="Ещё не знаю">Ещё не знаю</button>
+            </div>
+          </div>
+
+          <div class="brief-group">
+            <label class="brief-label">3. В какую сумму планируете уложиться? * <span>(подберём оптимальные материалы)</span></label>
+            <div class="choice-pills" data-choice-group="budget">
+              <button type="button" class="choice-pill" data-value="100–130 т.р.">100–130 т.р.</button>
+              <button type="button" class="choice-pill" data-value="130–150 т.р.">130–150 т.р.</button>
+              <button type="button" class="choice-pill is-selected" data-value="150–200 т.р.">150–200 т.р.</button>
+              <button type="button" class="choice-pill" data-value="200–250 т.р.">200–250 т.р.</button>
+              <button type="button" class="choice-pill" data-value="250–300 т.р.">250–300 т.р.</button>
+              <button type="button" class="choice-pill" data-value="300–400 т.р.">300–400 т.р.</button>
+              <button type="button" class="choice-pill" data-value="более 400 т.р.">более 400 т.р.</button>
+            </div>
+          </div>
+
+          <div class="brief-group">
+            <label class="brief-label">4. Как с вами удобнее связаться? *</label>
+            <div class="choice-pills" data-choice-group="channel">
+              <button type="button" class="choice-pill choice-pill--channel is-selected" data-value="Telegram">Telegram</button>
+              <button type="button" class="choice-pill choice-pill--channel" data-value="Max">Мессенджер Max</button>
+              <button type="button" class="choice-pill choice-pill--channel" data-value="По телефону">По телефону</button>
+            </div>
+          </div>
+
+          <label class="sketch-toggle">
+            <input type="checkbox" id="hasSketchCheck">
+            <span>У меня уже есть эскиз, размеры или расчёт из другого салона — хочу сравнить стоимость</span>
+          </label>
+
+          <div class="brief-inputs">
+            <input type="text" class="input-field" id="briefName" name="name" placeholder="Ваше имя *" required>
+            <input type="tel" class="input-field phone-mask" id="briefPhone" name="phone" placeholder="+7 (___) ___-__-__ *" required>
+          </div>
+          <input type="text" class="input-field" id="briefComment" name="comment" placeholder="Город / ЖК или пожелания (например: Подольск, угловая кухня 3,4 м)" style="margin-bottom:16px;">
+
+          <button type="submit" class="btn btn--caramel" style="width:100%;padding:16px 26px;font-size:0.98rem;">
+            Отправить анкету и получить расчёт за 1 день
+          </button>
+
+          <label class="legal-check">
+            <input type="checkbox" required checked>
+            <span>
+              Заполняя анкету, вы соглашаетесь с <a href="privacy.html">Политикой обработки персональных данных</a> и <a href="https://disk.yandex.ru/d/YyHh9yK6EI5vXQ" target="_blank" rel="noopener noreferrer">правовыми документами студии</a> (152-ФЗ).
+            </span>
+          </label>
+        </form>
+
+        <aside class="brief-aside">
+          <div>
+            <div class="eyebrow">Ваша заявка на расчёт</div>
+            <h3 style="font-size:1.45rem;font-weight:700;line-height:1.22;margin-bottom:12px;">
+              Что вы получите в течение 24 часов
+            </h3>
+            <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:22px;">
+              Никаких абстрактных «цен от»: уточним пару деталей в удобном вам мессенджере и посчитаем честную вилку в 2–3 вариантах комплектации.
+            </p>
+
+            <div class="brief-summary-card">
+              <div class="brief-summary-row"><span>Вид мебели</span><strong id="sumType">Кухня</strong></div>
+              <div class="brief-summary-row"><span>Плановый срок</span><strong id="sumTimeline">В ближайшее время</strong></div>
+              <div class="brief-summary-row"><span>Ориентир бюджета</span><strong id="sumBudget">150–200 т.р.</strong></div>
+              <div class="brief-summary-row"><span>Куда ответить</span><strong id="sumChannel">Telegram</strong></div>
+              <div class="brief-summary-row"><span>Выезд + 3D-проект</span><strong>Бесплатно (0 ₽)</strong></div>
+            </div>
+          </div>
+
+          <div>
+            <p style="font-size:0.81rem;color:var(--text-muted);margin-bottom:12px;">
+              Хотите сразу скинуть фото стены или чертёж от руки? Перейдите в диалог с уже заполненными параметрами:
+            </p>
+            <div style="display:flex;flex-direction:column;gap:10px;">
+              <a href="https://vk.me/caramelmebel" target="_blank" rel="noopener noreferrer" id="directVkBriefBtn" class="btn btn--glass" style="width:100%;">
+                Открыть диалог в ВК (vk.me) ↗
+              </a>
+              <a href="https://t.me/+79999695759" target="_blank" rel="noopener noreferrer" class="btn btn--glass" style="width:100%;">
+                Написать в Telegram (+7 999 969-57-59) ↗
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section">
+    <div class="container faq-layout">
+      <div>
+        <div class="eyebrow">Частые вопросы</div>
+        <h2 class="section__title" style="margin-bottom:16px;">Отвечаем прямо <em>до выезда</em></h2>
+        <p class="section__desc">
+          Если у вас нестандартная планировка, газовый котёл, выступы вентшахты или квартира ещё в бетоне — подскажем лучшее инженерное решение.
+        </p>
+      </div>
+
+      <div>
+        <details class="faq-item" open>
+          <summary>Почему у вас заметно дешевле, чем в крупных кухонных салонах?</summary>
+          <p>В стоимость нашей мебели не заложена дорогая аренда площадей в торговых центрах, содержание выставки и проценты штата продавцов. Мы работаем в формате выездной студии напрямую с проверенными ЧПУ-производствами — вы платите только за качественные плиты, европейскую фурнитуру и аккуратную сборку.</p>
+        </details>
+        <details class="faq-item">
+          <summary>На каком этапе ремонта лучше вызывать замерщика?</summary>
+          <p>Оптимально — ещё на этапе черновых работ: мы продумаем эргономику будущей кухни и выдадим вашим строителям точную схему выводов электрики, воды и вентиляции. А перед запуском мебели в цех проведём контрольный чистовой замер.</p>
+        </details>
+        <details class="faq-item">
+          <summary>В какие города выезжает технолог с образцами?</summary>
+          <p>Работаем по Подольску (включая Климовск), Щербинке, Видному, Чехову, Домодедово, Троицку, Новой Москве и южным районам Москвы. Замер в черте города, расчёт и доставка готовой мебели — бесплатные.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Есть ли рассрочка и официальная гарантия?</summary>
+          <p>Да, мы работаем официально по договору (ИП Алёхин В. С.) с фиксированной сметой, предоставляем гарантию до 2 лет и возможность оформить комфортную рассрочку сроком до 12 месяцев.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACTS ================= -->
+  <section class="section" id="contacts" style="padding-top:10px;">
+    <div class="container">
+      <div class="contacts-box">
+        <div>
+          <div class="eyebrow">Прямая связь с основателем</div>
+          <h2 class="section__title">Пригласите выездную студию <em>с образцами</em></h2>
+          <a href="tel:+79999695759" class="contacts-phone">+7 (999) 969-57-59</a>
+          <p style="color:var(--text-secondary);font-size:0.94rem;">
+            Владислав Алёхин · E-mail: <a href="mailto:caramelkuhni@yandex.ru" style="text-decoration:underline;">caramelkuhni@yandex.ru</a>
+          </p>
+
+          <div class="contacts-channels">
+            <a href="https://t.me/+79999695759" target="_blank" rel="noopener noreferrer" class="channel-chip">Telegram</a>
+            <button type="button" class="channel-chip" data-open-callback="Связаться со мной в мессенджере Max">Мессенджер Max</button>
+            <a href="https://vk.me/caramelmebel" target="_blank" rel="noopener noreferrer" class="channel-chip">Сообщения ВК</a>
+            <a href="https://vk.ru/caramelmebel" target="_blank" rel="noopener noreferrer" class="channel-chip">Группа ВКонтакте (2,9K)</a>
+          </div>
+        </div>
+
+        <div class="geo-card">
+          <div style="font-family:var(--font-mono);font-size:0.74rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--caramel-soft);">
+            География бесплатного выезда
+          </div>
+          <p style="font-size:0.92rem;color:var(--text-secondary);margin-top:8px;">
+            Привозим с собой полные раскладки плёнок, пластиков AGT / Senosan, декоров ЛМДФ Kronospan / Egger и столешниц Slotex:
+          </p>
+          <div class="geo-tags">
+            <span class="geo-tag">Подольск</span>
+            <span class="geo-tag">Щербинка</span>
+            <span class="geo-tag">Видное</span>
+            <span class="geo-tag">Чехов</span>
+            <span class="geo-tag">Домодедово</span>
+            <span class="geo-tag">Троицк</span>
+            <span class="geo-tag">Москва (Юг / ЮЗАО)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div style="color:var(--text-secondary);font-weight:600;margin-bottom:4px;">
+          © 2026 Студия мебели «Caramel» · Забота и внимание к каждой детали
+        </div>
+        <div>
+          ИП Алёхин Владислав Сергеевич · ИНН 503620111969 · ОГРНИП 323508100007812 · Московская обл., г. Подольск
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="privacy.html">Политика конфиденциальности (152-ФЗ)</a>
+        <a href="https://disk.yandex.ru/d/YyHh9yK6EI5vXQ" target="_blank" rel="noopener noreferrer">Публичная оферта и согласие ПДн ↗</a>
+        <a href="https://vk.ru/caramelmebel" target="_blank" rel="noopener noreferrer">vk.ru/caramelmebel ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= PROJECT LIGHTBOX MODAL ================= -->
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="pmTitle">
+    <div class="project-dialog">
+      <button type="button" class="modal-close" id="closeProjectModal" aria-label="Закрыть">×</button>
+      <div class="project-dialog__media">
+        <img src="assets/images/k10-black-marble-wide.jpg" alt="Выполненный проект Caramel" id="pmMainImg">
+        <div class="project-dialog__thumbs" id="pmThumbs" style="display:none;"></div>
+      </div>
+      <div class="project-dialog__info">
+        <div>
+          <div class="eyebrow" id="pmCategory" style="margin-bottom:8px;">Кухня</div>
+          <h3 id="pmTitle" style="font-size:1.38rem;font-weight:700;line-height:1.25;margin-bottom:6px;"></h3>
+          <div id="pmClient" style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted);"></div>
+
+          <div class="spec-block">
+            <div class="spec-block__lbl">Корпус и фасады</div>
+            <div class="spec-block__val" id="pmFacades"></div>
+          </div>
+          <div class="spec-block">
+            <div class="spec-block__lbl">Столешница и фурнитура</div>
+            <div class="spec-block__val" id="pmHardware"></div>
+          </div>
+          <div class="spec-block">
+            <div class="spec-block__lbl">Детали реализации</div>
+            <div class="spec-block__val" id="pmTask"></div>
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <button type="button" class="btn btn--caramel" id="pmOrderSimilarBtn" style="width:100%;">
+            Узнать стоимость похожего проекта под мои размеры
+          </button>
+          <a href="#" target="_blank" rel="noopener noreferrer" id="pmVkLink" class="btn btn--glass btn--sm" style="width:100%;">
+            Открыть оригинальный пост во ВКонтакте ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= QUICK CALLBACK MODAL ================= -->
+  <div class="modal" id="callbackModal" role="dialog" aria-modal="true" aria-labelledby="cbTitle">
+    <div class="callback-dialog">
+      <button type="button" class="modal-close" id="closeCallbackModal" aria-label="Закрыть" style="background:var(--stone-bg);color:var(--stone-ink);">×</button>
+      <div class="eyebrow eyebrow--on-light" style="margin-bottom:8px;">Студия мебели Caramel</div>
+      <h3 id="cbTitle" style="font-size:1.45rem;font-weight:700;line-height:1.2;margin-bottom:8px;">Записаться на бесплатный замер</h3>
+      <p style="font-size:0.88rem;color:var(--stone-muted);margin-bottom:18px;">
+        Оставьте контакты и выберите удобный способ связи — Владислав ответит без навязчивых звонков.
+      </p>
+
+      <form id="callbackForm">
+        <input type="hidden" id="cbContext" value="Запись на замер">
+        <div style="margin-bottom:12px;">
+          <div class="choice-pills" data-choice-group="modalChannel">
+            <button type="button" class="choice-pill choice-pill--channel is-selected" data-value="Telegram">Telegram</button>
+            <button type="button" class="choice-pill choice-pill--channel" data-value="Max">Max</button>
+            <button type="button" class="choice-pill choice-pill--channel" data-value="По телефону">По телефону</button>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <input type="text" class="input-field" id="cbName" placeholder="Ваше имя *" required>
+          <input type="tel" class="input-field phone-mask" id="cbPhone" placeholder="+7 (___) ___-__-__ *" required>
+          <input type="text" class="input-field" id="cbNote" placeholder="Комментарий или город (необязательно)">
+          <button type="submit" class="btn btn--caramel" style="width:100%;">Отправить заявку</button>
+        </div>
+        <label class="legal-check">
+          <input type="checkbox" required checked>
+          <span>Согласен с <a href="privacy.html">Политикой обработки ПДн</a> (152-ФЗ).</span>
+        </label>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toastBox" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js?v=2"></script>
+  <script src="js/data.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
+</body>
+</html>

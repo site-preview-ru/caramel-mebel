@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#141210"/>
+  <!-- Upper kitchen cabinets -->
+  <rect x="12" y="13" width="10" height="12" rx="1.8" fill="#EA871B"/>
+  <rect x="24" y="13" width="16" height="12" rx="1.8" fill="#EA871B"/>
+  <rect x="42" y="13" width="10" height="12" rx="1.8" fill="#EA871B"/>
+  <!-- Lower base cabinets + central oven module -->
+  <rect x="12" y="32" width="10" height="19" rx="1.8" fill="#EA871B"/>
+  <rect x="24" y="32" width="16" height="12" rx="1.8" fill="#EA871B"/>
+  <rect x="28" y="36.5" width="8" height="2.6" rx="1.2" fill="#141210"/>
+  <rect x="24" y="46" width="16" height="5" rx="1.5" fill="#EA871B"/>
+  <rect x="42" y="32" width="10" height="19" rx="1.8" fill="#EA871B"/>
+</svg>
